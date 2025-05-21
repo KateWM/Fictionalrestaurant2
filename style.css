@@ -59,3 +59,9 @@ nav ul {
 .social-icons a:hover {
   color: #0077ff;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(120, 90, 100);
+  }
+}
