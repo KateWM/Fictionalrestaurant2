@@ -4,7 +4,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 body {
-  background-color: rgb(59, 54, 54);
+  background-color: white;
 }
 #hero {
   background-image: url(./Images2/herooo.PNG);
@@ -13,14 +13,20 @@ body {
   background-size: cover;
   /* position: relative; */
   min-height: 75vh;
+}
+.blur {
   display: flex;
   justify-content: center;
   align-items: end;
+  width: 100%;
+  min-height: inherit;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  backdrop-filter: blur(1.5px);
 }
 .hero-text {
   text-align: center;
   text-decoration: none;
-  color: rgb(55, 21, 21);
+  color: rgb(20, 8, 8);
   padding-bottom: 2rem;
 }
 a {
@@ -37,4 +43,19 @@ nav ul {
 .button {
   background-color: rgb(59, 54, 54);
   border-style: hidden;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.social-icons a {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #0077ff;
 }
